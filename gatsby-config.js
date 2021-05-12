@@ -38,7 +38,7 @@ module.exports = {
     },
     `gatsby-plugin-gatsby-cloud`,
     {
-      resolve: "gatsby-source-graphcms",
+      resolve: 'gatsby-source-graphcms',
       options: {
         endpoint: process.env.GRAPHCMS_ENDPOINT,
         token: process.env.GRAPHCMS_TOKEN,
