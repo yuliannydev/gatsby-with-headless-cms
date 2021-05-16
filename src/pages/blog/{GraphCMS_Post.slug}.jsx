@@ -35,9 +35,8 @@ const PostLayout = ({ data: { graphCmsPost: post, cover } }) => {
 
             <hr className="my-8 border-gray-200"/>
 
-            <div className="max-w-full prose mb-[58px]">
+            <div className="box-border max-w-full mb-[58px]">
             <ReactMarkdown>{post.content}</ReactMarkdown>
-            
             </div>
         </section>
         </div>

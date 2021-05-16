@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container flex flex-col items-center px-5 mx-auto space-y-4 lg:flex-row lg:justify-between lg:space-y-0">
         <div>
           <p>
-            <strong>Yulianny Betancourt</strong> | Hecho en 🇻🇪 con mucho 💛
+            <strong className ="text-[#0b05c9] text-1xl">Yulianny Betancourt 2021</strong> | Hecho en 🇻🇪 con mucho 💛
           </p>
         </div>
         <div>

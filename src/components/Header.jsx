@@ -9,7 +9,7 @@ const Header = () => {
     <header className="relative w-full py-8">
       <div className="container flex items-center justify-between px-5 mx-auto">
         <div>
-          <Link to="/" className="text-xl font-bold text-black">
+          <Link to="/" className="text-xl font-bold text-[#09bcd3]">
             Yuliannydev
           </Link>
         </div>
@@ -59,13 +59,13 @@ const Header = () => {
               <div className="p-8">
                 <ul className="space-y-8 text-center">
                   <li>
-                    <Link to="/">Inicio</Link>
+                    <Link to="/" className="text-[#09bcd3]">Inicio</Link>
                   </li>
                   <li>
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/blog" className="text-[#09bcd3]">Blog</Link>
                   </li>
                   <li>
-                    <Link to="/sobre-mi">Sobre mí</Link>
+                    <Link to="/sobre-mi" className="text-[#09bcd3]">Sobre mí</Link>
                   </li>
                   <li>
                     <a
@@ -96,13 +96,13 @@ const Header = () => {
           {/* Desktop Menu */}
           <ul className="items-center hidden space-x-8 lg:flex">
             <li>
-              <Link to="/">Inicio</Link>
+              <Link to="/" className="text-[#09bcd3]">Inicio</Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/blog" className="text-[#09bcd3]">Blog</Link>
             </li>
             <li>
-            <Link to="/sobre-mi">Sobre mí</Link>
+            <Link to="/sobre-mi" className="text-[#09bcd3]">Sobre mí</Link>
             </li>
             <li>
               <a
